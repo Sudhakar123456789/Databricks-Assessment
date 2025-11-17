@@ -1,0 +1,34 @@
+{
+    "datasets": {
+        "customers": {
+            "file_name": "customers.csv",
+            "file_path": "/Volumes/dev/bronze/volumes/customers.csv",
+            "file_type": "csv",
+            "target_table_name": "raw_customers",
+            "header": true,
+            "delimiter": ","
+        },
+        "transactions": {
+            "file_name": "transactions.csv",
+            "file_path": "/Volumes/dev/bronze/volumes/transactions.csv",
+            "file_type": "csv",
+            "target_table_name": "raw_transactions",
+            "header": true,
+            "delimiter": ","
+        },
+        "branches": {
+            "file_name": "branches.json",
+            "file_path": "/Volumes/dev/bronze/volumes/branches.json",
+            "file_type": "json",
+            "target_table_name": "raw_branches",
+            "multiline": true
+        },
+        "accounts": {
+            "file_name": "accounts.json",
+            "file_path": "/Volumes/dev/bronze/volumes/accounts.json",
+            "file_type": "json",
+            "target_table_name": "raw_accounts",
+            "multiline": true
+        }
+    }
+}
